@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.style-grid-1{
+    background-color: rgb(11, 45, 45);
+    height: 70px;
+    width: 100%;
+    margin: 10px;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.style-grid-2{
+    border: 1px solid black;
+    height: 300px;
+    margin: 20px;
+    background-color: rgb(136, 232, 18);
+}
